@@ -1,0 +1,1 @@
+{"version":3,"names":["URL_PREFIX","VERSION_TAG","NEXT_VERSION_TAG"],"sourceRoot":"../../../src","sources":["constants/versions.ts"],"mappings":";;AAAA,OAAO,MAAMA,UAAU,GACrB,iEAAiE;AACnE,OAAO,MAAMC,WAAW,GAAG,gBAAgB;AAC3C,OAAO,MAAMC,gBAAgB,GAAG,gBAAgB","ignoreList":[]}
