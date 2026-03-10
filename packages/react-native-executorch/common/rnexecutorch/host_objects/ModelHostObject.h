@@ -171,6 +171,10 @@ public:
       addFunctions(JSI_EXPORT_FUNCTION(ModelHostObject<Model>,
                                        promiseHostFunction<&Model::stream>,
                                        "stream"));
+      addFunctions(JSI_EXPORT_FUNCTION(
+          ModelHostObject<Model>,
+          synchronousHostFunction<&Model::streamStop>,
+          "streamStop"));
     }
 
     if constexpr (meta::HasGenerateFromString<Model>) {
